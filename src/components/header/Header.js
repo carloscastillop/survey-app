@@ -1,15 +1,22 @@
 import React from 'react';
 import style from './Header.module.scss';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
         <div
             className={`${style.Header} ${style['d-flex']} ${style['flex-column']} ${style['flex-md-row']} ${style['align-items-center']} ${style['p-3']} ${style['px-md-4']} ${style['mb-3']} ${style['bg-white']} ${style['border-bottom']} ${style['shadow-sm']}`}
         >
-            <h5
-                className={`${style['my-0']} ${style['mr-md-auto']} ${style['font-weight-normal']}`}>
-                Company name
-            </h5>
+            <Link
+                className={`${style['my-0']} ${style['mr-md-auto']}`}
+                to='/'
+            >
+                <h5
+                    className={`${style['font-weight-normal']}`}
+                >
+                    Company name
+                </h5>
+            </Link>
             <nav
                 className={`${style['my-2']} ${style['my-md-0']} ${style['mr-md-3']}`}
             >
