@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Survey.module.scss';
 import Question from '../question/Question';
 import {Link} from 'react-router-dom';
+import 'animate.css/animate.min.css';
 
 function Survey() {
     const year = 2020;
@@ -10,11 +11,11 @@ function Survey() {
     return (
         <div className={`${style.Survey} ${style['container']}`}>
             <h1
-                className={`${style['my-4']}`}
+                className={`${style['my-4']} animate__animated animate__fadeInDown`}
             >
                 {date}
             </h1>
-            <div className={`${style.card}`}>
+            <div className={`${style.card} animate__animated animate__fadeInUp`}>
                 <div className={`${style['card-body']}`}>
                     <form>
                         <Question/>

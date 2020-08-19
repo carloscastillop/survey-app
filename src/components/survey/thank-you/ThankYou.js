@@ -1,11 +1,12 @@
 import React from 'react';
 import style from './ThankYou.module.scss';
 import {Link} from 'react-router-dom';
+import 'animate.css/animate.min.css';
 
 function ThankYou() {
     return (
         <div className={`${style.ThankYou} ${style['container']}`}>
-            <div className={`${style['jumbotron']}`}>
+            <div className={`${style['jumbotron']} animate__animated animate__zoomInDown`}>
                 <h1 className={`${style['display-4']}`}>
                     Thank you!
                 </h1>

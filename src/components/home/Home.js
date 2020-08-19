@@ -1,11 +1,14 @@
 import React from 'react';
 import style from './Home.module.scss';
 import { Link } from 'react-router-dom';
+import 'animate.css/animate.min.css';
 
 function Home() {
     return(
         <div className={`${style.Home} ${style['container']}`}>
-            <div className={`${style['jumbotron']}`}>
+            <div
+                className={`${style['jumbotron']} animate__animated animate__fadeIn`}
+            >
                 <h1 className={`${style['display-4']}`}>
                     September survey!
                 </h1>
