@@ -10,6 +10,7 @@ import {
 import Home from '../components/home/Home';
 import Survey from '../components/survey/Survey';
 import ThankYou from '../components/survey/thank-you/ThankYou';
+import Admin from "../components/admin/Admin";
 
 function App() {
     return (
@@ -25,6 +26,9 @@ function App() {
                     </Route>
                     <Route exact path="/survey/thank-you">
                         <ThankYou/>
+                    </Route>
+                    <Route exact path="/admin">
+                        <Admin/>
                     </Route>
                 </Switch>
                 <Footer/>
