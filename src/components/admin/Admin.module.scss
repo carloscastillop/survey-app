@@ -1,5 +1,18 @@
 @import '../../styles/global.module.scss';
 
 .Admin {
-  background-color: red;
+  background-color: #f2f2f2;
+
+  .sideMenu {
+    .list-group {
+      @media (max-width: $breakpoint-sm) {
+        flex-direction: row;
+      }
+    }
+
+    .list-group-item {
+      padding: ($spacer * 0.2) ($spacer * 0.5) !important;
+      font-size: 85%;
+    }
+  }
 }

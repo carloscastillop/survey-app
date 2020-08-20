@@ -9,7 +9,7 @@ function Survey() {
     const month = 'September';
     const date = `${month} ${year}`;
     return (
-        <div className={`${style.Survey} ${style['container']}`}>
+        <div className={`${style.Survey} ${style['container']} ${style['my-3']}`}>
             <h1
                 className={`${style['my-4']} animate__animated animate__fadeInDown`}
             >

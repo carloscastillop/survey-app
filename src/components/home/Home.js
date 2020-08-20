@@ -5,7 +5,7 @@ import 'animate.css/animate.min.css';
 
 function Home() {
     return(
-        <div className={`${style.Home} ${style['container']}`}>
+        <div className={`${style.Home} ${style['container']} ${style['my-3']}`}>
             <div
                 className={`${style['jumbotron']} animate__animated animate__fadeIn`}
             >

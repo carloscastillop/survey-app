@@ -5,7 +5,7 @@ import 'animate.css/animate.min.css';
 
 function ThankYou() {
     return (
-        <div className={`${style.ThankYou} ${style['container']}`}>
+        <div className={`${style.ThankYou} ${style['container']} ${style['my-3']}`}>
             <div className={`${style['jumbotron']} animate__animated animate__zoomInDown`}>
                 <h1 className={`${style['display-4']}`}>
                     Thank you!

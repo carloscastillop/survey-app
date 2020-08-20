@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <div
-            className={`${style.Header} ${style['d-flex']} ${style['flex-column']} ${style['flex-md-row']} ${style['align-items-center']} ${style['p-3']} ${style['px-md-4']} ${style['mb-3']} ${style['bg-white']} ${style['border-bottom']} ${style['shadow-sm']}`}
+            className={`${style.Header} ${style['d-flex']} ${style['flex-column']} ${style['flex-md-row']} ${style['align-items-center']} ${style['p-3']} ${style['px-md-4']} ${style['bg-white']} ${style['border-bottom']} ${style['shadow-sm']}`}
         >
             <Link
                 className={`${style['my-0']} ${style['mr-md-auto']}`}
@@ -45,10 +45,10 @@ function Header() {
                     Pricing
                 </a>
             </nav>
-            <a
+            <Link
                 className={`${style['btn']} ${style['btn-outline-primary']}`}
-                href="#"
-            >Sign up</a>
+                to="/admin"
+            >Admin</Link>
         </div>
     );
 }

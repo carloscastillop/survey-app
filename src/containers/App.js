@@ -10,7 +10,7 @@ import {
 import Home from '../components/home/Home';
 import Survey from '../components/survey/Survey';
 import ThankYou from '../components/survey/thank-you/ThankYou';
-import Admin from "../components/admin/Admin";
+import Admin from '../components/admin/Admin';
 
 function App() {
     return (
